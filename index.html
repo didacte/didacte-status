@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Didacte - Status Page</title>
+    <meta name="description" content="Get the latest Didacte system status information here.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+      html {
+        background: linear-gradient(#C5D6E5, #E7EFF3);
+        min-height: 100%;
+      }
+
+      body {
+        color: #414744;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .wrap {
+        max-width: 545px;
+        margin: 0 auto;
+        padding: 50px 25px;
+      }
+
+      h1 {
+        color: #0077AD;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 1.1;
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        color: #003366;
+        text-decoration: none;
+      }
+
+      hr {
+        height: 1px;
+        background-color: #C4D1DF;
+        display: block;
+        border: none;
+        margin: 0 auto;
+      }
+
+      section { padding: 1.5em 0; }
+
+      .logo {
+        padding: 5%;
+        text-align: center;
+      }
+
+      .more-details { color: #788a85; }
+
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1 class="logo">
+        <a href="https://www.didacte.com">
+          <img src="data:image/png;base64,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"  width="110" height="24"/>
+        </a><br>
+      </h1>
+
+      <h2>System Status Reports</h2>
+
+      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/DidacteStatus" data-widget-id="634553395160944640">Tweets by @DidacteStatus</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      <h2>Uptime Statistics</h2>
+
+      <div class="StatusCake"></div><link rel="stylesheet" media="all" href="https://www.statuscake.com/App/Widget/table.css"/><script type="text/javascript">var PublicID = 'WvO2NlnfMn'; var ShowAd = true; var Status = document.createElement('script'); Status.src = 'https://www.statuscake.com/App/Widget/Widget2JS.js'; Status.type = 'text/javascript'; Status.async = true; var ssc = document.getElementsByTagName('script')[0]; ssc.parentNode.insertBefore(Status, ssc);</script>
+
+      </div>
+    </div>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-9999999-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
